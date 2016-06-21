@@ -50,8 +50,8 @@
 
 ```
 
+## aa.html
 ```
-##aa.html
 	<script src="aa.js"></script><!--delete-->//注，用于写代码测试，fis3编译后，自动删除后有<!--delete-->注释的代码
 	<script type="javascript">
         console.log(__domain());
@@ -61,7 +61,7 @@
     </script>
 ```
 
-##aa.js
+## aa.js
 ```
 	function __uri(src){
 	  return src;
