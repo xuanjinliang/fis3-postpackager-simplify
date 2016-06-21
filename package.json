@@ -1,0 +1,27 @@
+{
+  "name": "fis3-postpackager-simplify",
+  "version": "0.0.1",
+  "description": "跟据环境变量配置不同的参数",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuanjinliang/fis3-postpackager-simplify.git"
+  },
+  "keywords": [
+    "fis",
+    "replace",
+	"environment "
+  ],
+  "author": "xuanjinliang",
+  "dependencies": {
+    "uglify-js": "^2.6.3"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuanjinliang/fis3-postpackager-simplify/issues"
+  },
+  "homepage": "https://github.com/xuanjinliang/fis3-postpackager-simplify#readme"
+}
