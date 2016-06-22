@@ -5,7 +5,7 @@
 const fs = require('fs'),
     UglifyJS = require("uglify-js");
 
-let rStyleScript = /((<!(?:--)?\[[\s\S]*?<\!\[endif\](?:--)?>|<!--[\s\S]*?(?:-->|$))|(?:(\s*<script([^>]*)>([\s\S]*?)<\/script>)|(?:\s*(<link([^>]*?)(?:\/)?>)|(<style([^>]*)>([\s\S]*?)<\/style>))))<!--delete-->/ig;
+let rStyleScript = /((<!(?:--)?\[[\s\S]*?<\!\[endif\](?:--)?>|<!--[\s\S]*?(?:-->|$))|(?:(\s*<script[^>]*>[^<>]*<\/script>)|(?:\s*(<link([^>]*?)(?:\/)?>)|(<style([^>]*)>([\s\S]*?)<\/style>))))<!--delete-->/ig;
 
 let environment = fis.project.currentMedia();   //获取当前的环境
 
