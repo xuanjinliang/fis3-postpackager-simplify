@@ -39,9 +39,9 @@ module.exports = (ret, conf, settings, opt) => {
                     if(parameter){
                         if(content.match(key)){
                             let replaceStr = '';
-                            switch(class2type[type(obj[environment])]){
+                            switch(class2type[type(parameter)]){
                                 case 'function':
-                                    let format = UglifyJS.minify("var a = "+obj[environment], {fromString: true}).code.match(/function\(\){.+}/);
+                                    let format = UglifyJS.minify("var a = "+parameter, {fromString: true}).code.match(/function\(\){.+}/);
                                     replaceStr = '(' + format + ')()';
                                     break;
                                 case 'string':

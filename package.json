@@ -1,6 +1,6 @@
 {
   "name": "fis3-postpackager-simplify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "跟据环境变量配置不同的参数",
   "main": "index.js",
   "scripts": {
